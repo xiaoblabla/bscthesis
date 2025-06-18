@@ -75,7 +75,7 @@ def proxy_problem_explicit_matrix(n, m, weights, distances):
 
 if __name__ == "__main__":
     # Example values
-    n = 7  # Number of nodes (including v0)
+    n = 7  # Number of nodes (excluding v0)
     m = 2  # Number of proxies
     weights = [10, 15, 20, 25, 5, 8, 30]  # Weights of the nodes
     distances = [2, 3, 5, 4, 1, 3, 2]  # Distances between consecutive nodes
